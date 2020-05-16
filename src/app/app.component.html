@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>PC parts and peripherals</title>
+    <base href="/">
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid" style="margin: 0; background-image: url(assets/Images/BannerBG.jpg);">
+      <div class="container">
+        <h1 class="display-4" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:ghostwhite;">The Best PC parts and Peripherals</h1>
+        <p class="lead" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: dodgerblue;">Welcome and enjoy your time finding the perfect addition to your work-station. </p>
+      </div>
+    </div>
+      <div class="navbar" style="height: 150px; background-image: url(assets/Images/NewBanner.jpg);">
+        <div style="width: 150px; margin-left: 20px;">
+          <h3 style="margin-left: 10%; color: mistyrose;">CPUs</h3>
+          <button type="button" class="btn btn-primary CpuButton" style="margin-left: 10%; margin-bottom: 10px;" routerLink="/CPU">CPUs</button>
+        </div>
+        <div style="width: 150px; margin-left: 20px;">
+          <h3 style="margin-left: 20px; color: mistyrose">GPUs</h3>
+          <button type="button" class="btn btn-primary GpuButton" style="margin-left: 20px; margin-bottom: 10px;" routerLink="/GPU">GPUs</button>
+        </div>
+        <div style="width: 150px; margin-left: 20px;">
+          <h3 style="margin-left: 20px; color: mistyrose">RAMs</h3>
+          <button type="button" class="btn btn-primary RamButton" style="margin-left: 20px; margin-bottom: 10px;" routerLink="/RAM">RAMs</button>
+        </div>
+        <div style="width: 150px; margin-left: 20px;">
+          <h3 style="margin-left: 20px; color: mistyrose">Monitors</h3>
+          <button type="button" class="btn btn-primary MonitorButton" style="margin-left: 20px; margin-bottom: 10px;" routerLink="/Monitor">Monitors</button>
+        </div>
+        <div style="width: 150px; margin-left: 20px; margin-right: 20px;">
+          <h3 style="margin-left: 20px; color: mistyrose">Peripherals</h3>
+          <button type="button" class="btn btn-primary PeriButton" style="margin-left: 20px; margin-bottom: 10px;" routerLink="/Peripherals">Peripherals</button>
+        </div>
+      </div>
+  </body>
+  <router-outlet></router-outlet>
+  <footer>
+    <div style="height: 500px; background: black;"></div>
+  </footer>
+</html>
